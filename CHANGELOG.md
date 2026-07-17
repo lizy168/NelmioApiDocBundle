@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## [5.10.4](https://github.com/nelmio/NelmioApiDocBundle/compare/v5.10.3...v5.10.4) (2026-07-17)
+
+
+### Miscellaneous Chores
+
+* **deps:** bump @scalar/api-reference from 1.57.5 to 1.62.5 in /utils ([#2769](https://github.com/nelmio/NelmioApiDocBundle/issues/2769)) ([cabb52e](https://github.com/nelmio/NelmioApiDocBundle/commit/cabb52e8406aba7cc93f82a568fa11215ad283ad))
+
 ## [5.10.3](https://github.com/nelmio/NelmioApiDocBundle/compare/v5.10.2...v5.10.3) (2026-06-01)
 
 
