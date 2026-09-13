@@ -18,7 +18,7 @@ jobs:
                 run: mkdir .cache
 
             -   name: "Extract base branch name"
-                run: echo "##[set-output name=branch;]$(echo ${GITHUB_BASE_REF:=${GITHUB_REF##*/}})"
+                run: echo "::set-output name=branch::$(echo ${GITHUB_BASE_REF:=${GITHUB_REF##*/}})"
                 id: extract_base_branch
 
             -   name: "Cache DOCtor-RST"
